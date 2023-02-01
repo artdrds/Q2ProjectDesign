@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class GirlBot {
+  public class GirlBot {
   public String name;
   private Boss robotParts;
   protected static ArrayList<Boss> partList = new ArrayList<>();
