@@ -1,7 +1,7 @@
 public class Obstacles {
   
 	protected int numOfObstacles, sizeOfObstacles, gridRow, gridColumn;
-  protected boolean obstacleCrash;
+  	protected boolean obstacleCrash;
   
   	public void spawnObstacle(){ 
 	}
