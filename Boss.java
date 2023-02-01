@@ -2,7 +2,7 @@
 public abstract class Boss implements Interactive {
 	protected final String bossName, answers;
 	protected int wrongAnswers;
-  protected boolean bossEncounter = false;
+ 	protected boolean bossEncounter = false;
 
 	public Boss(String n, String a, int w){
 		bossName = n;
@@ -27,14 +27,14 @@ public abstract class Boss implements Interactive {
 	}
 	
 	public void spawnBoss(){
-    bossEncounter = true;
+    		bossEncounter = true;
 	}
 
 	public void askQuestion(){
 	}
 	
 	public static void bossWin(){		
-    Player.restoreLives(); 
+    		Player.restoreLives(); 
 	}
 
 	public String addParts(String  , String){
